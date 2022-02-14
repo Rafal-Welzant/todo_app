@@ -15,7 +15,7 @@ export const Filters = (props) => {
           <div className={s.filter}>
             
             <button  onClick={() => setActiveFilter("All")}>All </button>
-            <button onClick={() => setActiveFilter("Completed")}>Comleted</button>
+            <button onClick={() => setActiveFilter("Completed")}>Completed</button>
             <button onClick={() => setActiveFilter("Active")}>Active</button>
           </div>
           
